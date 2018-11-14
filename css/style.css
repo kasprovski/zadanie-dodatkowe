@@ -1,8 +1,7 @@
 body{
-    width: 100%;
+    width: 99%;
     background-image: url(../images/tlo.jpg);
     background-size: cover;
-    background-position: center;
     background-attachment: fixed;
     color: rgb(250, 100, 0);
     font-size: 22px;
@@ -67,11 +66,9 @@ ul .start, ul .ciekawostki, ul .filmik, ul .porownanie {
 }
 
 
-.footer {
+footer {
     border: 5px double brown;
-    right: 10;
-    bottom: 0;
-    left: 10;
+    margin:0 10 10 10;
     padding: 10px;
     background-color: rgb(150, 64, 231);
     text-align: center;
