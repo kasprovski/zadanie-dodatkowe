@@ -1,0 +1,118 @@
+body{
+    width: 100%;
+    background-image: url(../images/tlo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: rgb(250, 100, 0);
+    font-size: 22px;
+}
+
+section.zdj{
+    display: flex;
+    justify-content: space-between;
+}
+
+.zdjecia img{
+    width: 350px;
+    height:  350px;
+}
+
+.nawigacja{
+    z-index: 3;
+    position: fixed;
+}
+.nawigacja li {
+    list-style: none;
+    display: inline-block;
+}
+
+ul .start, ul .ciekawostki, ul .filmik, ul .porownanie { 
+    width: 700px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.start {
+    background-color: rgba(100, 68, 104, 0.51);
+}
+.start:hover{
+    background-color: rgba(100, 68, 104, 1);
+}
+
+
+.ciekawostki {
+    background-color:rgba(27, 121, 55, 0.51);
+}
+.ciekawostki:hover{
+    background-color:rgba(27, 121, 55, 1);
+}
+
+.filmik {
+    background-color:rgba(207, 183, 44, 0.51);
+}
+.filmik:hover{
+    background-color:rgba(207, 183, 44, 1);
+}
+
+.porownanie {
+    background-color: rgba(104, 46, 13, 0.51);
+}
+.porownanie:hover {
+    background-color: rgba(104, 46, 13, 1);
+}
+
+
+.footer {
+    border: 5px double brown;
+    right: 10;
+    bottom: 0;
+    left: 10;
+    padding: 10px;
+    background-color: rgb(150, 64, 231);
+    text-align: center;
+  }
+
+  #ciekawostka{
+      color: darkmagenta;
+      font-style: oblique;
+  }
+  h3 {
+      font-size: 25px;
+      color: saddlebrown;
+    }
+
+    h4{
+        font-style: italic;
+        font-size: 35px;
+        color: blue;
+    }
+
+  #napisDoFilmiku{
+        font-size: 40;
+        background-image: url(sz2.jpg);
+        background-repeat:  no-repeat;
+        background-size: 650px;
+        color: aqua;
+    }
+
+    #link_do_zdjec{
+        font-weight: 800;
+        font-style: italic;
+    }
+
+    #link_do_zdjec >a:link {
+        color:red;
+    }
+
+    #link_do_zdjec >a:visited {
+        color: lime;
+    }
+    
+    #link_do_zdjec >a:hover {
+        color: blue;
+    }
