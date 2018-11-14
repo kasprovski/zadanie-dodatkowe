@@ -1,5 +1,5 @@
 body{
-    width: 99%;
+    width: 100%;
     background-image: url(../images/tlo.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -12,9 +12,17 @@ section.zdj{
     justify-content: space-between;
 }
 
-.zdjecia img{
+.zdj img{
+    position: relative;
     width: 350px;
     height:  350px;
+}
+.do_zdj{
+    z-index: 5;
+    position: absolute;
+    left: 2%;
+    bottom: 13%;
+    color:rgba(24, 27, 173, 0.938);
 }
 
 .nawigacja{
@@ -72,6 +80,8 @@ footer {
     padding: 10px;
     background-color: rgb(150, 64, 231);
     text-align: center;
+    font-style: italic;
+    font-weight: 700;
   }
 
   #ciekawostka{
@@ -91,13 +101,22 @@ footer {
 
   #napisDoFilmiku{
         font-size: 40;
-        background-image: url(sz2.jpg);
+        background-image: url(../images/sz2.jpg);
         background-repeat:  no-repeat;
         background-size: 650px;
+        height: 300px;
         color: aqua;
+        position: relative;
+        left: 25%;   /* pewnie w tym miejscu przesunęła mi się strona cała w prawą stronę, przypuszczam, że względu na to w stronach są budowane osobne selektory :D */
+    }
+    #film{
+        position: relative;
+        left: 28%;    
     }
 
     #link_do_zdjec{
+        color: aqua;
+        font-size: 30px;
         font-weight: 800;
         font-style: italic;
     }
@@ -112,4 +131,8 @@ footer {
     
     #link_do_zdjec >a:hover {
         color: blue;
+    }
+
+    #link_do_zdjec >a:active {
+        color: black;
     }
