@@ -1,7 +1,6 @@
 body{
-    width: 100%;
     background-image: url(../images/tlo.jpg);
-    background-size: cover;
+    background-size: cover 100%;
     background-attachment: fixed;
     color: rgb(250, 100, 0);
     font-size: 22px;
@@ -20,12 +19,12 @@ section.zdj{
 .do_zdj{
     z-index: 5;
     position: absolute;
-    left: 2%;
     bottom: 13%;
     color:rgba(24, 27, 173, 0.938);
 }
 
 .nawigacja{
+    width: 100%;
     z-index: 3;
     position: fixed;
 }
@@ -99,15 +98,15 @@ footer {
         color: blue;
     }
 
-  #napisDoFilmiku{
+
+
+#napisDoFilmiku{
         font-size: 40;
         background-image: url(../images/sz2.jpg);
         background-repeat:  no-repeat;
-        background-size: 650px;
         height: 300px;
         color: aqua;
-        position: relative;
-        left: 25%;   /* pewnie w tym miejscu przesunęła mi się strona cała w prawą stronę, przypuszczam, że względu na to w stronach są budowane osobne selektory :D */
+        margin-left: 22%;
     }
     #film{
         position: relative;
